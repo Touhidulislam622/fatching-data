@@ -14,7 +14,7 @@ const DataFeaching = () => {
     useEffect(()=>{
         //  setTimeout remove kora jabe //
        setTimeout(() => {
-        fetch("https://jsonplaceholder.typicode.com/todo")
+        fetch("https://jsonplaceholder.typicode.com/todos")
         .then((res) =>{
             if( !res.ok){
                 throw Error("facthing is not succesful");
